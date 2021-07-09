@@ -1,0 +1,270 @@
+/* Acá van configuraciónes globales de estilos, por ejemplo fonts, margenes default, colores primarios y secundarios de la pagina, etc */
+
+@font-face {
+    font-family: "Gill Sans Italic";
+    src: url("../fonts/Gill_Sans_Italic.otf");
+}
+
+@font-face {
+    font-family: "Gill Sans Heavy";
+    src: url("../fonts/Gill_Sans_Heavy.otf");
+}
+
+@font-face {
+    font-family: "Gill Sans Heavy-Italic";
+    src: url("../fonts/Gill_Sans_Heavy_Italic.otf");
+}
+  
+@font-face {
+    font-family: "Gill Sans Bold";
+    src: url("../fonts/Gill_Sans_Bold.otf");
+}
+
+@font-face {
+    font-family: "Gill Sans Bold-Italic";
+    src: url("../fonts/Gill_Sans_Bold_Italic.otf");
+}
+
+@font-face {
+    font-family: "Gill Sans Condensed";
+    src: url("../fonts/Gill_Sans_Condensed.otf");
+}
+
+@font-face {
+    font-family: "Gill Sans Condensed-Bold";
+    src: url("../fonts/Gill_Sans_Condensed_Bold.otf");
+}
+  
+@font-face {
+    font-family: "Gill Sans Medium";
+    src: url("../fonts/Gill_Sans_Medium.otf");
+}
+
+@font-face {
+    font-family: "Gill Sans Medium-Italic";
+    src: url("../fonts/Gill_Sans_Medium_Italic.otf");
+}
+
+@font-face {
+    font-family: "Gill Sans Light";
+    src: url("../fonts/Gill_Sans_Light.otf");
+}
+
+@font-face {
+    font-family: "Gill Sans Light-Italic";
+    src: url("../fonts/Gill_Sans_Light_Italic.otf");
+}
+
+.text-century {    
+    font-family: "Century Gothic";
+}
+
+.text-gillsans-light {    
+    font-family: "Gill Sans Light";
+}
+
+.text-gillsans-medium {    
+    font-family: "Gill Sans Medium";
+}
+
+.text-gillsans-bold {    
+    font-family: "Gill Sans Bold";
+}
+  
+.nav-item{
+    background-color: #E5E5E5;
+    border-radius: 5px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #676767 !important;
+    font-size: 14px;
+    letter-spacing: 1.85px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    background-color: #CECECE !important;
+    border-radius: 8px !important;
+}
+.nav-link {
+    color: #676767 !important;
+    font-size: 14px;
+    letter-spacing: 1.85px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    background-color: #E5E5E5 !important;
+    border-radius: 8px !important;
+}
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    color: #606060;
+}
+.buttonPrincipal{
+    background-color: #ED394D;
+    color: #EEEEEE;
+    width: 180px;   
+}
+
+.background-content{
+    background-color: #eeeeee;
+    /* background-color: #649175; */
+    min-height: 75vh;
+    height: auto;
+    padding: 0px !important;
+}
+.buttondelete{
+    border-color: beige;
+    background-color: beige;
+    color : #ED394D;
+    box-shadow: none;
+}
+.buttonsuccess{
+    border-color: beige;
+    background-color: beige;
+    color: #4599FF;
+    box-shadow: 0px 1px 3px #8E4F51;
+}
+.buttondelete:hover, .buttondelete:focus,.buttondelete:active{
+    border-color: beige;
+    background-color: beige;
+    color : #ED394D;
+    box-shadow: none;
+}
+.buttonsuccess:hover, .buttonsuccess:focus,.buttonsuccess:active{
+    border-color: beige;
+    background-color: beige;
+    color: #4599FF;
+    box-shadow: none;
+}
+.buttonHeaderForm{
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color : #ED394D;
+    box-shadow: 0px 1px 3px #8E4F51;
+}
+.buttonHeaderForm:hover,.buttonHeaderForm:focus,.buttonHeaderForm:active{
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color : #ED394D;
+    /* box-shadow: none; */
+}
+select {
+    background-color: #FFFFFF !important;
+}
+input:read-only, select:disabled{
+    background-color: #F3F3F3 !important;
+    color: rgb(172, 172, 172);
+    border-color: #BFBFBF;
+}
+input, input .form-control:focus, select, select .form-control:focus{
+    border-color: #BFBFBF !important;
+}
+.custom-control-input:checked~.custom-control-label::before{
+    color: #fff !important;
+    border-color: #ED394D !important;
+    background-color: #ED394D !important;
+    content: '' !important;
+}
+.custom-control{
+    z-index: 0;
+}
+.editorGenerico-wrapper{
+ border: 1px solid #cccccc;
+ /* padding: 10px 15px; */
+ border-radius: .2rem;
+}
+
+.editorGenerico-editor{
+    padding: 2px 10px;
+}
+.form-control:focus{    
+    box-shadow: 0px 0.4px 3px #8e4f51 !important;
+}
+.principalText{
+    color:#800000;
+}
+.breadcrumb{
+    background-color: #ffffff;
+}
+/* html {
+    min-height: 100%;
+    position: relative;
+  } */
+body {
+    padding-bottom: 170px;
+    overflow-x: hidden;
+  } 
+.test-m{
+    margin-bottom: 100px;
+}
+
+.hiddenElement{
+    display: none;
+}
+
+  @media screen and (min-width: 992px) {
+    .prheader{
+        padding-right: 300px !important;
+    }  
+    .plheader{
+        padding-left: 150px !important;
+    }
+}
+
+
+.pagination {
+    margin: 15px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+  }
+  .pagination > .active > a{
+    background-color: #8c171a ;
+    border-color: #8c171a ;
+    color: #fff;
+  }
+  .pagination > li > a{
+    border: 1px solid #efefef ;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #8c171a ;
+    border-color: #8c171a;
+    outline: none ;
+  }
+  .pagination > li > a, .pagination > li > span{
+    color: #fff
+  }
+  .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+  }
+  .modal-backdrop{
+      background-color: #691012 !important;
+  }
+
+  .modal.Body{
+    background-color: #691012;
+  }
+  .modal-backdrop.show {
+    opacity: .8 !important;
+}
+.btnIcon{
+        box-shadow: none !important;
+        background: transparent !important;
+        color: rgba(0,0,0,.45) !important;
+        z-index: 10 !important;
+        border: 1px solid #BFBFBF !important;
+        border-left: none !important;
+}
+
+.btnIcon:hover{
+    color: rgba(0,0,0,.85) !important;
+}
+
+.btnIcon span{
+    vertical-align: middle;
+}
+.form-control.is-valid, .was-validated .form-control:valid {
+    background: none !important;
+}
+.ant-message{
+    z-index: 10000;
+}

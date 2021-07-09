@@ -1,0 +1,139 @@
+label{
+    font-size: 11px;
+}
+.col-form-label{
+    font-size: 11px;
+    letter-spacing: 1.65px;
+}
+.TitleLabel{
+    font-size: 16px;
+    letter-spacing: 1.65px;
+}
+.border-acciones{
+    /* border-top: 1px solid #EDEDED; */
+    /* border-right: 1px solid #EDEDED; */
+    /* border-bottom: 1px solid #EDEDED; */
+    padding-top: 16px;
+}
+.butonPlanilla{
+    position: absolute;
+    left: 63%;
+}
+
+.delete-btn{
+    color: #ED394D;
+    font-size: 13px;
+    letter-spacing: 1.85px;
+    font-weight: bold;
+    box-shadow: 0px 0.4px 3px #8E4F51;
+}
+.done-btn{
+    color: #4599FF;
+    font-size: 13px;
+    letter-spacing: 1.85px;
+    font-weight: bold;
+    box-shadow: 0px 0.4px 3px #8E4F51;
+}
+.required{
+    color:red;
+}
+
+.buttonPrincipal{
+
+    position: relative;
+    top: -20px;
+}
+
+.Elipse100{
+    width: 138px;
+    height: 138px;
+    border: 1px solid #BFBFBF;
+    border-radius: 100%;
+}
+
+.textAddPhoto{
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 1.24px;
+    opacity: 50%;
+    height: 138px;
+    text-align: center;
+    position: relative;
+    top: 58px;
+}
+
+.marginFormRight{
+    padding: 25px 50px 25px 25px;
+}
+
+.marginFormLeft{
+    padding: 25px 25px 25px 25px;
+}
+
+.borderHeader{
+    padding: 14px 10px;
+    border: 1px solid #DCDCDC;
+}
+
+.borderExterno{
+    padding: 14px 10px;
+    border: 1px solid #DCDCDC;
+    position: relative;
+}
+
+.tabs, .tab{
+    position: relative;
+    top: -55px;
+}
+
+.botonesSimulador{
+    margin-bottom: 100px;
+}
+.letratableTitle {
+    color: #676767;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.letratable {
+    color: #676767;
+    margin-bottom: 0px;
+}
+
+.headerForm{
+    padding: 10px 50px;
+    border: 1px solid #DCDCDC;
+}
+
+.FormSimulador{
+    margin: 50px 0 50px 0;
+    /* text-align: right; */
+}
+
+.textResultado{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.itemResultado{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.65px;
+}
+
+.navForm .nav-link{ 
+    color:#000000 !important;
+    background-color: white !important;
+    box-shadow: 0px 1px 3px #8e4f51;
+    border-radius: 5px !important;
+}
+.navForm .nav-link.active{ 
+    box-shadow: 0px 1px 3px #cecece; 
+}
+
+.grafico > div{
+    height: 100px !important;
+    width: 100px !important;
+}

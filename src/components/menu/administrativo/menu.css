@@ -1,0 +1,23 @@
+
+
+/* @media screen and (min-width: 992px) { */
+    /* .pliconadmi{
+        padding-left: 180px;
+    }
+    .priconadmi{
+        padding-right: 220px;
+    }
+} */
+
+.menu-vh{
+    height:63.2vh;
+}
+.item-dash{
+    margin:0px -35px;
+}
+@media screen and (max-width: 767px){
+    .item-dash{
+        margin: 0px;
+    }
+
+}

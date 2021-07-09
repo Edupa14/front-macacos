@@ -1,0 +1,84 @@
+.headerMenuText{
+    font-size:x-large;
+    font-family: "Century Gothic";
+    color: #fff ;
+}
+.textoMenu{
+    color: #8C171A;
+    font-size: medium;
+}
+
+.buttonMenu{
+    padding: 7px 30px;
+    background: white !important;
+    box-shadow: 0px 0px 5px 0px #b9b7b782 !important;
+    border-radius: 15px !important;
+    border: none !important;
+}
+.buttonMenu h1 {
+    color: #8C171A !important;
+    font-size: 14px !important;
+}
+.buttonMenu:hover, .buttonMenu:focus, .buttonMenu:active{
+    background: transparent linear-gradient(136deg, #ED394D 0%, var(--unnamed-color-8c171a) 100%) 0% 0% no-repeat padding-box !important;
+    background: transparent linear-gradient(136deg, #ED394D 0%, #8C171A 100%) 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 3px 6px #00000029 !important;
+    color: white !important;
+}
+
+.buttonMenu:hover h1, .buttonMenu:focus h1, .buttonMenu:active h1{
+    color: white !important;
+}
+
+.buttonMenu:hover img,.buttonMenu:focus img, .buttonMenu:active img {    
+    filter: invert(0.1) sepia(0.8) saturate(0) hue-rotate(186deg);
+}
+
+.mb-6{
+    margin-bottom: 90px;
+}
+
+.menu-vh{
+    height:63.2vh;
+}
+.mtmenu-6{
+    margin-top: 60px;
+}
+
+.footer-ac{    
+    background-color:#efefef;   
+  
+}
+
+.item-footer{
+    border-right: 1.5px solid #d5d5d5;
+}
+.bgmenu{
+    background-image:  url('img/header.svg'), url('img/bg-header.svg');
+    background-size: cover, cover;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    /* height: 100px;
+    width: 1900px; */
+    /* background-color: rgb(21, 44, 25); */
+}
+.footermenu{
+    margin-top: 30px;
+    /* position:absolute;  */
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%; 
+   
+}
+
+.spacing-title{
+    letter-spacing: 1.65px;
+}
+
+.spacing-subtitle{
+    letter-spacing: 2.55px;
+}
+
+.hrmenuheader{
+    margin-top: 0;
+}

@@ -1,0 +1,53 @@
+.bgBuscadorSection{
+    background-color: #DCDCDC;
+    border-radius: 0px!important;
+}
+
+.letterBuscador{
+    margin-bottom: 0;
+    cursor:pointer;
+    display: inline-block;
+}
+.mostrar{
+    display: block;
+}
+.oculto{
+    display: none;
+}
+.borderhr{
+    margin: 10px 0 0;
+    color:black;
+}
+.results{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 0;
+    padding-left: 15px;
+}
+
+.card-header{
+    padding: 5px 15px;
+}
+.card-body{
+    padding: 0px !important;
+}
+.item-buscar{
+    height: 33px;
+    padding: 5px 18px;
+    border-bottom: 1px solid #DCDCDC;
+    background-color: #F3F3F3;
+    font-size: 13px;
+}
+
+.item-buscar:hover{
+    background-color: #ffe9eb;
+}
+
+.iconA{
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+}
+.selectedColor{
+    background-color: #ffe9eb;
+}

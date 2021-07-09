@@ -1,0 +1,38 @@
+.bgCheck{
+    background-color: #dad6d6;
+}
+/* checked -> propiedad para que este seleccionado default */
+.labelcheck{
+    /* font-size: 16px;  */
+    margin-bottom: 0px;
+  }
+  
+  input[type=checkbox]{
+    display: none; /*solo se esconde para tener un campo personalisado*/
+  }
+  
+  input[type=checkbox] + .labelcheck{
+    cursor:pointer;
+  }/*esta linea significa esto + el siguiente elemento*/
+  
+  .labelcheck:before{
+    content:'';
+    background:transparent;
+    border: 1px solid #676767;
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    margin-right: 5px;
+    text-align:center;
+    border-radius: 10%;
+    /* text-shadow:1px 0px 0px green; */
+    vertical-align:middle;
+  }
+  input[type=checkbox]:checked + label:before{
+    content: '✔';
+    background: #ED394D;    
+    border: 1px solid #ED394D;
+    font-size: 11px;
+    font-family:'Times New Roman';
+    color:#ffffff;
+  }
